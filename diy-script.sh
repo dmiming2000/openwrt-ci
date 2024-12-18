@@ -80,6 +80,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-ali
 # DDNS.to
 git_sparse_clone main https://github.com/linkease/nas-packages-luci luci/luci-app-ddnsto
 git_sparse_clone master https://github.com/linkease/nas-packages network/services/ddnsto
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 # iStore
 git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
